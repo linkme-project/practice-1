@@ -1,7 +1,4 @@
-FROM ubuntu:18.04
-
-RUN apt-get update
-RUN apt-get nodejs npm
+FROM node:latest
 
 RUN mkdir -p /var/www
 
